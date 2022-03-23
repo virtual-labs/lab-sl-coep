@@ -1,17 +1,16 @@
 {
-    "broadArea": {
-        "name": "Electrical Engineering",
-        "link": "https://www.vlab.co.in/broad-area-electrical-engineering"
-    },
-    "lab": "Virtual Sensor Lab",
-    "lab_display_name": "Sensors Modeling & Simulation Lab",
-    "deployLab": true,
-    "phase": 2,
-    "collegeName": "coep",
-    "baseUrl": "sl-coep.vlabs.ac.in",
-    "introduction": "The 'Sensor Modelling and Simulation Lab' deals with working principles, factors governing performance, and identifying static and dynamic characteristics of all major sensors.<br/><br>The first principle model which is running in the background will represent ideal characteristics. The configurable parameter will give an insight to students about the deviations from standard or expected field application.",
-    "experiments": 
-    [
+  "broadArea": {
+    "name": "Electrical Engineering",
+    "link": "https://www.vlab.co.in/broad-area-electrical-engineering"
+  },
+  "lab": "Virtual Sensor Lab",
+  "lab_display_name": "Sensors Modeling & Simulation Lab",
+  "deployLab": true,
+  "phase": 2,
+  "collegeName": "coep",
+  "baseUrl": "sl-coep.vlabs.ac.in",
+  "introduction": "The 'Sensor Modelling and Simulation Lab' deals with working principles, factors governing performance, and identifying static and dynamic characteristics of all major sensors.<br/><br>The first principle model which is running in the background will represent ideal characteristics. The configurable parameter will give an insight to students about the deviations from standard or expected field application.",
+  "experiments": [
     {
       "name": "Characterize the temperature sensor (RTD)",
       "short-name": "characterize-temperature-sensor",
@@ -68,18 +67,27 @@
       "tag": "v1.0.0",
       "deploy": true
     }
+  ],
+  "targetAudience": {
+    "UG": [
+      "Undergraduate students of Instrumentation and Control Engineering, Mechatronics Engineering, Mechanical Engineering branches."
     ],
-    "targetAudience": {
-        "UG": ["Undergraduate students of Instrumentation and Control Engineering, Mechatronics Engineering, Mechanical Engineering branches."],
-        "PG": ["Post-graduate students of Process Instrumentation, Mechatronics, Production Engineering."]
-    },
-    "objective": "1. Characterise the sensor under test<br>2. Identify and plot the static and dynamic characteristics of the sensor.<br/>3. Select proper material of construction and allied components for specific application of a sensor.",
-    "courseAlignment": {
-        "description": "",
-        "universities": ["Pune University",
-        "Indian Institute of Technology Bombay",
-        "Indian Institute of Technology Delhi",
-        "BMS College of Engineering, Bangalore",
-        "Institute having Instrumentation and control department"]
-    }
+    "PG": [
+      "Post-graduate students of Process Instrumentation, Mechatronics, Production Engineering."
+    ]
+  },
+  "objective": "1. Characterise the sensor under test<br>2. Identify and plot the static and dynamic characteristics of the sensor.<br/>3. Select proper material of construction and allied components for specific application of a sensor.",
+  "courseAlignment": {
+    "description": "",
+    "universities": [
+      "Pune University",
+      "Indian Institute of Technology Bombay",
+      "Indian Institute of Technology Delhi",
+      "BMS College of Engineering, Bangalore",
+      "Institute having Instrumentation and control department"
+    ]
+  },
+  "exp_name": "Characterize the temperature sensor (Thermocouple)",
+  "exp_short_name": "temperature-sensor",
+  "version": "v0.1.0"
 }
