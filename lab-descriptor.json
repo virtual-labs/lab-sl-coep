@@ -1,23 +1,85 @@
 {
     "broadArea": {
-        "name": "",
-        "link": ""
+        "name": "Electrical Engineering",
+        "link": "https://www.vlab.co.in/broad-area-electrical-engineering"
     },
-    "lab": "",
-    "lab_display_name": "",
-    "deployLab": ,
-    "phase": ,
-    "collegeName": "",
-    "baseUrl": "",
-    "introduction": "",
-    "experiments": [],
+    "lab": "Virtual Sensor Lab",
+    "lab_display_name": "Sensors Modeling & Simulation Lab",
+    "deployLab": true,
+    "phase": 2,
+    "collegeName": "coep",
+    "baseUrl": "sl-coep.vlabs.ac.in",
+    "introduction": "The 'Sensor Modelling and Simulation Lab' deals with working principles, factors governing performance, and identifying static and dynamic characteristics of all major sensors.<br/><br>The first principle model which is running in the background will represent ideal characteristics. The configurable parameter will give an insight to students about the deviations from standard or expected field application.",
+    "experiments": 
+    [
+    {
+      "name": "Characterize the temperature sensor (RTD)",
+      "short-name": "characterize-temperature-sensor",
+      "repo": "https://github.com/virtual-labs/exp-characterize-temperature-sensor-coep",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Simulate the performance of a bio-sensor",
+      "short-name": "performance-bio-sensor",
+      "repo": "https://github.com/virtual-labs/exp-performance-bio-sensor-coep",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Measurement of level in a tank using capacitive type level probe",
+      "short-name": "tank-using-capacitive",
+      "repo": "https://github.com/virtual-labs/exp-tank-using-capacitive-coep",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Characterize the LVDT",
+      "short-name": "lvdt",
+      "repo": "https://github.com/virtual-labs/exp-lvdt-coep",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Design an orifice plate for a typical application",
+      "short-name": "design-orifice-plate",
+      "repo": "https://github.com/virtual-labs/exp-design-orifice-plate-coep",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Simulate the performance of a chemical sensor",
+      "short-name": "performance-chemical-sensor",
+      "repo": "https://github.com/virtual-labs/exp-performance-chemical-sensor-coep",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Characterize the strain gauge sensor",
+      "short-name": "strain-gauge-sensor",
+      "repo": "https://github.com/virtual-labs/exp-strain-gauge-sensor-coep",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Characterize the temperature sensor (Thermocouple)",
+      "short-name": "temperature-sensor",
+      "repo": "https://github.com/virtual-labs/exp-temperature-sensor-coep",
+      "tag": "v1.0.0",
+      "deploy": true
+    }
+    ],
     "targetAudience": {
-        "UG": [],
-        "PG": []
+        "UG": ["Undergraduate students of Instrumentation and Control Engineering, Mechatronics Engineering, Mechanical Engineering branches."],
+        "PG": ["Post-graduate students of Process Instrumentation, Mechatronics, Production Engineering."]
     },
-    "objective": "",
+    "objective": "1. Characterise the sensor under test<br>2. Identify and plot the static and dynamic characteristics of the sensor.<br/>3. Select proper material of construction and allied components for specific application of a sensor.",
     "courseAlignment": {
         "description": "",
-        "universities": []
+        "universities": ["Pune University",
+        "Indian Institute of Technology Bombay",
+        "Indian Institute of Technology Delhi",
+        "BMS College of Engineering, Bangalore",
+        "Institute having Instrumentation and control department"]
     }
 }
