@@ -8,7 +8,7 @@
   "lab_display_name": "Sensors Modeling & Simulation Lab",
   "deployLab": true,
   "phase": 2,
-  "collegeName": "coep",
+  "collegeName": "COEP",
   "baseUrl": "sl-coep.vlabs.ac.in",
   "introduction": "The 'Sensor Modelling and Simulation Lab' deals with working principles, factors governing performance, and identifying static and dynamic characteristics of all major sensors.<br/><br>The first principle model which is running in the background will represent ideal characteristics. The configurable parameter will give an insight to students about the deviations from standard or expected field application.",
   "experiments": [
