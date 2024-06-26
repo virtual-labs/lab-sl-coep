@@ -1,7 +1,8 @@
 {
   "broadArea": {
     "name": "Electrical Engineering",
-    "link": "https://www.vlab.co.in/broad-area-electrical-engineering"
+    "link": "https://www.vlab.co.in/broad-area-electrical-engineering",
+    "code": "EE"
   },
   "lab": "Virtual Sensor Lab",
   "lab_display_name": "Sensors Modeling & Simulation Lab",
@@ -86,8 +87,5 @@
       "BMS College of Engineering, Bangalore",
       "Institute having Instrumentation and control department"
     ]
-  },
-  "exp_name": "Characterize the temperature sensor (Thermocouple)",
-  "exp_short_name": "temperature-sensor",
-  "version": "v0.3.0"
+  }
 }
